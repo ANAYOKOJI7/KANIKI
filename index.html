@@ -1,22 +1,195 @@
+
 <!DOCTYPE html>
   <html>
     <head>
       <title>My Personal Webpage</title>
+	<style>
+	body{
+		background-color:powderblue;
+		font-family:Arial;
+		color:gray;
+		text-align: center:
+}
+	header{
+		background-color: tomato;
+		color: white;
+		text-align: center;
+		padding:20px;
+}
+	h1{
+		color:navy;
+		font-size:36px;
+}
+	p{
+		font-size:18px;
+}
+.img-style1{
+		width:250px;
+		height:180px;
+		border-radius:10%;
+		border:1px solid lightyellow;
+		margin-top:30px;
+}
+.img-style2{
+		width:200px;
+		height:120px;
+		border-radius:50%;
+		border:1px solid RED;
+		margin-top:30px;
+}
+
+.table-style1{
+	width:80%;
+	margin:20px auto;
+	border:2px solid navy;
+}
+.table-style1 th, .table-style1 td{
+	border:1px solid navy;
+	padding:10px;
+	text-align:center;
+}
+.table-style1 th{
+	background-color:lightblue;
+}
+.table-style2{
+	width:60%;
+	margin:20px auto;
+	border:2px solid darkgreen;
+}
+.table-style2 th, .table-style2 td{
+	border:1px solid navy;
+	padding:10px;
+	text-align:center;
+}
+.table-style2 th{
+	background-color:lightgreen;
+}
+.about	{
+	width:60%;
+	margin:20px auto;
+	text-align:left;
+}
+div.mycontainer{
+	width:66%;
+	overflow:auto;
+}
+div.mycontainer div{
+	width:50%;
+	float:left;
+}
+.video-style1	{
+	width:35%;
+	margin:10px auto;
+	text-align:center;
+	border:3px solid green;
+}
+.video-style2	{
+	width:55%;
+	margin:30px auto;
+	text-align:center;
+	border:5px solid blue;
+}
+.list-style1{
+	list-style-type:square;
+	color:darkblue;
+	text-align:left;
+	margin:20px;
+}
+.list-style2{
+	list-style-type:circle;
+	color:darkgreen;
+	text-align:left;
+	margin:20px;
+}
+</style>
+		
+
     </head>
     <body>
       <header>
-        <h1>Welcome to My Personal Webpage</h1>
-        <p>This is a simple example of an HTML snd CSS personal Webpage.</p>
+        <h1>Bienvenido to My Personal Webpage</h1>
+        <p>This is a simple example of an HTML and CSS personal Webpage.</p>
 <pre>
 Name: FRED HICKS
 AGE:32
 Location: Liberty
-</prep>
+</pre>
       </header>
-<section>
+<section class="about">
 <p>Check out my favorite website: <a href="https://www.youtube.com/"target=_blank">Videos</a>
 </p>
-<a href="mailto:thermidorneizer@gmail.com"target=_blank">send a Email thermidorneizer@gmail.com</a>
-<img src="https://github.com/ANAYOKOJI7/KANIKI/blob/main/1_ERRIYEfRZETF1Ng4aHIoYA.jpg?raw=true" alt="Animee"  width="250" height="242">
-    </body>
-  </html>
+<a href="mailto:thermidorneizer@gmail.com" target="_blank">send a Email thermidorneizer@gmail.com</a>
+<br>
+<img class="img-style1"src="https://tse1.mm.bing.net/th/id/OIP.0MmS4KrPp1w1D9I5yIYWaQHaJQ?pid=Api&P=0&h=180" alt="sample">
+<br>
+<a href="https://www.facebook.com/"target=_blank"><img class="img-style2" src="https://github.com/ANAYOKOJI7/KANIKI/blob/main/1_ERRIYEfRZETF1Ng4aHIoYA.jpg?raw=true" alt="Animee"  title="Click here for go to facebook" width="80" height="60"></a>
+</section>
+<hr>
+<h2>My Hobbies</h2>
+<table class="table-style1">
+	<tr>
+		<th>Hobby</th>
+		<th>Hours/Week</th>
+	</tr>
+	<tr>
+		<td>Poor</td>
+		<td>everyday</td>
+	</tr>
+	<tr>
+		<td>lost money</td>
+		<td>every second</td>
+	</tr>
+</table>
+<table class="table-style2">
+	<tr>
+		<th>Movie</th>
+		<th>Hours/Week</th>
+	</tr>
+	<tr>
+		<td>Animee</td>
+		<td>Each free time</td>
+	</tr>
+	<tr>
+		<td>Serie scorpion</td>
+		<td>no remember</td>
+	</tr>
+</table>
+<div class="mycontainer">
+<div>
+<h2>My favorite Foods</h2>
+<ul class="list-style1">
+	<li>rice with beans with Meat</li>
+	<li>frite and Humberger with chiken, Beef,Pork, Goat </li>
+	<li>Broth of Goat, Beef</li>
+</ul>
+</div>
+<div>
+<h2>My favorite Drink</h2>
+<ul class="list-style2">
+	<li>natural juice</li>
+	<li>Grape </li>
+	<li>Spaguetti with milk with patatoes, rice, carrot, peanut, honey syrup, salt</li>
+</ul>
+</div>
+</div>
+
+<section class="video-style1">
+<h2>My favorite video</h2>
+<video width="480" height="360" controls>
+<source src="C:\Users\therm\Downloads\[AMV]_-_Solo_Leveling_Dark_Aria(480p) (2).mp4?raw=True">
+</video>
+</section>
+
+<section class="video-style2">
+<h2>My favorite video</h2>
+<video width="480" height="360" controls>
+<source src="https://github.com/ANAYOKOJI7/KANIKI/blob/main/4yxvm6v0QsqjCwf40AMVGw_c45a812ec5fc4c9b8b333d3b4f2373f1_VV-003-4K-001_MP4_540.mp4?raw=True">
+</video>
+</section>
+
+<section>
+<h2>Embedded Website</h2>
+
+<iframe src="https://www.npr.org" width="600" height="400" style="border: none:"></iframe>
+</body>
+</html>
