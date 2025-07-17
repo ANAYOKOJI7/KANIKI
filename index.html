@@ -100,9 +100,18 @@ div.mycontainer div{
 	text-align:left;
 	margin:20px;
 }
+.button-transition{
+	background-color:navy;
+	color:white;
+	padding:10px 20px;
+	transition: background-color 0.3s ease;
+	border:none;
+	cursor:pointer;
+}
+		.button-transition:hover{
+			background-color:darkorange;
+		}
 </style>
-		
-
     </head>
     <body>
       <header>
@@ -114,7 +123,7 @@ AGE:32
 Location: Liberty
 </pre>
 	      <a href="test.html" style="color:black"; target="-blank";>
-		      <button> Page 2</button></a>
+		      <button class="button-transition"> Page 2</button></a>
       </header>
 <section class="about">
 <p>Check out my favorite website: <a href="https://www.youtube.com/"target=_blank">Videos</a>
@@ -192,5 +201,6 @@ Location: Liberty
 <h2>Embedded Website</h2>
 
 <iframe src="https://www.npr.org" width="600" height="400" style="border: none:"></iframe>
+	
 </body>
 </html>
